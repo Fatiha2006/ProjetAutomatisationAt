@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         //tags={"@Fatiha_test"},
         glue = "stepsdefs",
-        plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json","junit:target/surefire-reports/cucumber.xml"}
+        plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json","junit:target/surefire-reports/cucumber.xml"},
+        monochrome = true
 
 
 )

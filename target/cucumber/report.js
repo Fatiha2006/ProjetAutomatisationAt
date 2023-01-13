@@ -55,8 +55,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "bb.fatiha@hotmail.com",
-        "Nazim18\u0026"
+        "fatiha-m_18@hotmail.com",
+        "Anir1234\u0026"
       ]
     }
   ]
@@ -77,6 +77,9 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "je clique sur la page My Account",
   "keyword": "Given "
@@ -85,28 +88,27 @@ formatter.match({
   "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat stepsdefs.MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount(MyStepdefsAcceuil.java:14)\r\n\tat ✽.je clique sur la page My Account(classpath:TestConnexionOK.feature:21)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "dans la page login je saisie le mail dans le champ mail  \"bb.fatiha@hotmail.com\"",
+  "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
   "keyword": "When "
 });
 formatter.match({
   "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "dans la page login je saisie le MDP dans le champ MDP \"Nazim18\u0026\"",
+  "name": "dans la page login je saisie le MDP dans le champ MDP \"Anir1234\u0026\"",
   "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "je clique sur le bouton LOGIN",
@@ -116,7 +118,7 @@ formatter.match({
   "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "je vérifie que l\u0027écran Dashboard est affiché",
@@ -126,6 +128,6 @@ formatter.match({
   "location": "MyStepdefsMyAccount.jeVérifieQueLÉcranDashboardEstAffiché()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

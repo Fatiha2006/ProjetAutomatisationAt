@@ -3,6 +3,17 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 1563360500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
         "line": 28,
         "name": "Connexion OK",
         "description": "",
@@ -12,9 +23,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepsdefs.MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount(MyStepdefsAcceuil.java:14)\r\n\tat ✽.je clique sur la page My Account(classpath:TestConnexionOK.feature:21)\r\n",
-              "duration": 1390300,
-              "status": "failed"
+              "duration": 5777272500,
+              "status": "passed"
             },
             "line": 21,
             "name": "je clique sur la page My Account",
@@ -25,15 +35,15 @@
           },
           {
             "result": {
-              "duration": 6100,
-              "status": "skipped"
+              "duration": 73994900,
+              "status": "passed"
             },
             "line": 22,
-            "name": "dans la page login je saisie le mail dans le champ mail  \"bb.fatiha@hotmail.com\"",
+            "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"bb.fatiha@hotmail.com\"",
+                  "val": "\"fatiha-m_18@hotmail.com\"",
                   "offset": 57
                 }
               ],
@@ -43,15 +53,15 @@
           },
           {
             "result": {
-              "duration": 2600,
-              "status": "skipped"
+              "duration": 164739600,
+              "status": "passed"
             },
             "line": 23,
-            "name": "dans la page login je saisie le MDP dans le champ MDP \"Nazim18\u0026\"",
+            "name": "dans la page login je saisie le MDP dans le champ MDP \"Anir1234\u0026\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Nazim18\u0026\"",
+                  "val": "\"Anir1234\u0026\"",
                   "offset": 54
                 }
               ],
@@ -61,8 +71,8 @@
           },
           {
             "result": {
-              "duration": 2300,
-              "status": "skipped"
+              "duration": 912201600,
+              "status": "passed"
             },
             "line": 24,
             "name": "je clique sur le bouton LOGIN",
@@ -73,8 +83,8 @@
           },
           {
             "result": {
-              "duration": 1900,
-              "status": "skipped"
+              "duration": 32590900,
+              "status": "passed"
             },
             "line": 25,
             "name": "je vérifie que l\u0027écran Dashboard est affiché",

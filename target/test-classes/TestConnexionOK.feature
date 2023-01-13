@@ -25,4 +25,4 @@ Feature: Connexion US2
     Then je vérifie que l'écran Dashboard est affiché
     Examples:
       |Login                 |MDP|
-      |bb.fatiha@hotmail.com |Nazim18&|
+      |fatiha-m_18@hotmail.com |Anir1234&|

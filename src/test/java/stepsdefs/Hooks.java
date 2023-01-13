@@ -1,7 +1,7 @@
 package stepsdefs;
 
+import cucumber.api.java.Before;
 import manager.DriverManager;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
 public class Hooks {

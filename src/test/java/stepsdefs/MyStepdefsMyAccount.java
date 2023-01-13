@@ -36,7 +36,8 @@ public class MyStepdefsMyAccount  {
     @Then("je vérifie que l'écran Dashboard est affiché")
     public void jeVérifieQueLÉcranDashboardEstAffiché() {
         WebElement ParagraphPageDashbord = driver.findElement(By.xpath(XpathParagraphPageDachbors));
-        ParagraphPageDashbord.getText().contains("From your account dashboard you can view your");
+        String paraph = ParagraphPageDashbord.getText();
+            System.out.println(paraph);
     }
 
 
