@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.002882">
+    <testcase classname="Connexion US2" name="Connexion OK" time="0.002882">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepsdefs.MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount(MyStepdefsAcceuil.java:14)&#13;&#10;&#9;at ✽.je clique sur la page My Account(classpath:TestConnexionOK.feature:21)&#13;&#10;">
+            <![CDATA[Given je clique sur la page My Account......................................failed
+When dans la page login je saisie le mail dans le champ mail  "bb.fatiha@hotmail.com".skipped
+And dans la page login je saisie le MDP dans le champ MDP "Nazim18&"........skipped
+And je clique sur le bouton LOGIN...........................................skipped
+Then je vérifie que l'écran Dashboard est affiché...........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepsdefs.MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount(MyStepdefsAcceuil.java:14)
+	at ✽.je clique sur la page My Account(classpath:TestConnexionOK.feature:21)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Connexion OK",
+        "description": "",
+        "id": "connexion-us2;connexion-ok;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepsdefs.MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount(MyStepdefsAcceuil.java:14)\r\n\tat ✽.je clique sur la page My Account(classpath:TestConnexionOK.feature:21)\r\n",
+              "duration": 1390300,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "je clique sur la page My Account",
+            "match": {
+              "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6100,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "dans la page login je saisie le mail dans le champ mail  \"bb.fatiha@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bb.fatiha@hotmail.com\"",
+                  "offset": 57
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "dans la page login je saisie le MDP dans le champ MDP \"Nazim18\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nazim18\u0026\"",
+                  "offset": 54
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "je clique sur le bouton LOGIN",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "je vérifie que l\u0027écran Dashboard est affiché",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieQueLÉcranDashboardEstAffiché()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_POEC3-2"
+          },
+          {
+            "name": "@TEST_POEC3-22"
+          },
+          {
+            "name": "@Fatiha_test"
+          }
+        ]
+      }
+    ],
+    "name": "Connexion US2",
+    "description": "",
+    "id": "connexion-us2",
+    "keyword": "Feature",
+    "uri": "classpath:TestConnexionOK.feature",
+    "tags": [
+      {
+        "name": "@REQ_POEC3-2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
