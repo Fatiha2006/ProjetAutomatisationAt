@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />

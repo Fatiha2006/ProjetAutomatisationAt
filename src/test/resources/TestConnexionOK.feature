@@ -18,11 +18,15 @@ Feature: Connexion US2
 	#Je me connecte avec un compte qui existe.
   @TEST_POEC3-22 @Fatiha_test
   Scenario Outline: Connexion OK
-    Given je clique sur la page My Account
-    When dans la page login je saisie le mail dans le champ mail  "<Login>"
+    Given j'ouvre l'application
+    When je clique sur la page My Account
+    And dans la page login je saisie le mail dans le champ mail "<Login>"
     And dans la page login je saisie le MDP dans le champ MDP "<MDP>"
     And je clique sur le bouton LOGIN
     Then je vérifie que l'écran Dashboard est affiché
     Examples:
       |Login                 |MDP|
       |fatiha-m_18@hotmail.com |Anir1234&|
+
+
+

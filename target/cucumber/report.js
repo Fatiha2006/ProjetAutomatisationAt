@@ -23,12 +23,16 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "je clique sur la page My Account",
+  "name": "j\u0027ouvre l\u0027application",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "dans la page login je saisie le mail dans le champ mail  \"\u003cLogin\u003e\"",
+  "name": "je clique sur la page My Account",
   "keyword": "When "
+});
+formatter.step({
+  "name": "dans la page login je saisie le mail dans le champ mail  \"\u003cLogin\u003e\"",
+  "keyword": "And "
 });
 formatter.step({
   "name": "dans la page login je saisie le MDP dans le champ MDP \"\u003cMDP\u003e\"",
@@ -81,8 +85,18 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "je clique sur la page My Account",
+  "name": "j\u0027ouvre l\u0027application",
   "keyword": "Given "
+});
+formatter.match({
+  "location": "MyStepdefsAcceuil.jOuvreLApplication()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "je clique sur la page My Account",
+  "keyword": "When "
 });
 formatter.match({
   "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
@@ -92,7 +106,7 @@ formatter.result({
 });
 formatter.step({
   "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.match({
   "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"

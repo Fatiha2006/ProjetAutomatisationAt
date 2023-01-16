@@ -15,7 +15,7 @@ public class MyStepdefsMyAccount  {
      String XpathButtonLogin = "//input[@value=\"Login\"]";
      String XpathParagraphPageDachbors = "//div[@class=\"woocommerce-MyAccount-content\"]/p[2]";
 
-    @When("dans la page login je saisie le mail dans le champ mail  {string}")
+    @When("dans la page login je saisie le mail dans le champ mail {string}")
     public void dansLaPageLoginJeSaisieLeMailDansLeChampMail(String mail) {
         WebElement input_mail_login = driver.findElement(By.xpath(XpathChampMailLogin));
         input_mail_login.sendKeys(mail);
@@ -36,8 +36,7 @@ public class MyStepdefsMyAccount  {
     @Then("je vérifie que l'écran Dashboard est affiché")
     public void jeVérifieQueLÉcranDashboardEstAffiché() {
         WebElement ParagraphPageDashbord = driver.findElement(By.xpath(XpathParagraphPageDachbors));
-        String paraph = ParagraphPageDashbord.getText();
-            System.out.println(paraph);
+        ParagraphPageDashbord.getText().contains("From your account dashboard you can view your");
     }
 
 
