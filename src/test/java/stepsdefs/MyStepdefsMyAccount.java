@@ -14,9 +14,7 @@ public class MyStepdefsMyAccount  {
      String XpathChampMdpLogin = "//*[@id=\"password\"]";
      String XpathButtonLogin = "//input[@value=\"Login\"]";
      String XpathParagraphPageDachbors = "//div[@class=\"woocommerce-MyAccount-content\"]/p[2]";
-     String XpathLinkLostYourPassword = "//*[@id=\"customer_login\"]/div[1]/form/p[4]/a";
 
-     String XpathChampMailReinitMdp = "";
 
     @When("dans la page login je saisie le mail dans le champ mail {string}")
     public void dansLaPageLoginJeSaisieLeMailDansLeChampMail(String mail) {
@@ -43,12 +41,8 @@ public class MyStepdefsMyAccount  {
     }
 
 
-    @And("je clique sur le lien Lost your password je suis redirigé vers une page contenant un champ login")
-    public void jeCliqueSurLeLienLostYourPasswordJeSuisRedirigéVersUnePageContenantUnChampLogin() {
-        WebElement LienLostYourPassword = driver.findElement(By.xpath(XpathLinkLostYourPassword));
-        LienLostYourPassword.click();
+    @Then("Message erreur s'affiche {string}")
+    public void messageErreurSAffiche(String MSG) {
 
     }
-
-
 }
