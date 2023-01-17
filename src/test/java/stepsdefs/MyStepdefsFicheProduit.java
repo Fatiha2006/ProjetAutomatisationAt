@@ -10,9 +10,9 @@ public class MyStepdefsFicheProduit {
     public static WebDriver driver = Hooks.driver;
 
     String XpathBoutonAjouterAuPanier = " //*[@id=\"product-182\"]/div[2]/form/button";
-    String XpathTexteDeConfirmationAjoutPanier="/html/body/div[1]/div[2]/div/div/div[1]/text()";
+    String XpathTexteDeConfirmationAjoutPanier= "//*[@id=\"content\"]/div[1]";
 
-    String XpathBoutonAjoutPanier = "//*[@id=\"content\"]/div[1]/a ";
+    String XpathBoutonAjoutPanier = "//*[@id=\"content\"]/div[1]/a";
 
     @And("je clique sur le bouton ajouter au panier")
     public void jeCliqueSurLeBoutonAjouterAuPanier() {
@@ -21,22 +21,19 @@ public class MyStepdefsFicheProduit {
 
     }
 
-
-
-    @Then("je suis notifié de le ajout de mon article au panier {string}")
-    public void jeSuisNotifiéDeLeAjoutDeMonArticleAuPanier(String Notification) {
-        WebElement TexteConfirmationAjout = driver.findElement(By.xpath(XpathTexteDeConfirmationAjoutPanier));
-        TexteConfirmationAjout.getText().contains(Notification);
-
-    }
-
-
     @And("je vérifie la présence du bouton ajouter au panier")
     public void jeVérifieLaPrésenceDuBoutonAjouterAuPanier() {
-      Boolean BtnAjoutPanier = driver.findElement(By.xpath(XpathBoutonAjoutPanier)).isDisplayed();
+        WebElement BoutonAjoutPanier = driver.findElement(By.xpath(XpathBoutonAjoutPanier));
+        BoutonAjoutPanier.isDisplayed();
+    }
 
-
+    @Then("je suis notifié de le ajout de mon article au panier")
+    public void jeSuisNotifiéDeLeAjoutDeMonArticleAuPanier() {
+        WebElement TexteConfirmationAjout = driver.findElement(By.xpath(XpathTexteDeConfirmationAjoutPanier));
+        TexteConfirmationAjout.getText().contains("HTML5 WebApp Develpment");
 
     }
+
+
 }
 
