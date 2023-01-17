@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class MyStepdefsAcceuil {
     public static WebDriver driver = Hooks.driver;
     String XpathLienMyAccount = "//*[@id=\"menu-item-50\"]/a";
-
+    String XpathPageAcceuil = "//*[@id=\"text-22-sub_row_1-0-1-1-0\"]/h2";
     @Given("j'ouvre l'application")
     public void jOuvreLApplication() {
         driver.get("https://practice.automationtesting.in/");
@@ -22,6 +22,10 @@ public class MyStepdefsAcceuil {
         lienMyAccount.click();
     }
 
-
+    @When("je suis la page D'acceuil")
+    public void jeSuisLaPageDAcceuil() {
+        WebElement PageAcceuil = driver.findElement(By.xpath(XpathPageAcceuil));
+        PageAcceuil.getText().contains("new arrivals");
+    }
 
 }

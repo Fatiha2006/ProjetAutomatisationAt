@@ -4,17 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa24f7c7-5d86-4ab5-8745-a3c42c1a64bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestConnexionKo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerificationLinksMyAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVérifArticleExisteShop.feature" afterDir="false" />
+    <list default="true" id="ebd228c8-defa-4be2-84c1-eee08ede9ea2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MuStepdefsPanier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsLostPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ReinitialisationMotDePasse.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestLogoAcceuil.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestLogoMyAccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestLogoPanier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestLogoShop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestReinitialisationMotDePasse.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ReinitialisationMotDePasse.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test Notification et affichage du bouton de redirection au panier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test affichage informations fiche produit.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestAffichageNotificationEtBoutonAjoutPanier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestLogoAcceuil.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestLogoMyAccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestLogoPanier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestLogoShop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestReinitialisationMotDePasse.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsLostPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +69,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Dev/First_Project_Selenuim&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -58,7 +81,26 @@
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: vérification la présence des liens sur la page My Account après la connexion">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Connexion OK">
+    <configuration name="Feature: TestAffichageNotificationEtBoutonAjoutPanier" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAt" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TestAffichageNotificationEtBoutonAjoutPanier" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Connexion OK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" />
@@ -79,15 +121,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Connexion avec mot de passe erroné" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestConnexionKo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Projet_AT" />
-      <option name="NAME_FILTER" value="^Connexion avec mot de passe erroné$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Connexion avec mot de passe erroné$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Connexion avec mot de passe erroné" />
+      <module name="ProjetAutomatisationAt" />
+      <option name="NAME_FILTER" value="^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,35 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Connexion cas OK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" />
-      <option name="GLUE" value="stepdfs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Projet_AT" />
-      <option name="NAME_FILTER" value="^Connexion cas OK$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Connexion cas OK$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Connexion cas OK" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: vérification la présence des liens sur la page My Account après la connexion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerificationLinksMyAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Projet_AT" />
-      <option name="NAME_FILTER" value="^vérification la présence des liens sur la page My Account après la connexion$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^vérification la présence des liens sur la page My Account après la connexion$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: vérification la présence des liens sur la page My Account après la connexion" />
+      <module name="ProjetAutomatisationAt" />
+      <option name="NAME_FILTER" value="^Vérification de la présence des informations liées à un article sur sa fiche produit$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de la présence des informations liées à un article sur sa fiche produit$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,22 +161,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Projet_AT" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunnerTests" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAt" />
+      <option name="NAME_FILTER" value="^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: vérification la présence des liens sur la page My Account après la connexion" />
-        <item itemvalue="JUnit.RunnerTests" />
         <item itemvalue="Cucumber Java.Scenario: Connexion OK" />
-        <item itemvalue="Cucumber Java.Scenario: Connexion avec mot de passe erroné" />
-        <item itemvalue="Cucumber Java.Scenario: Connexion cas OK" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
+        <item itemvalue="Cucumber Java.Feature: TestAffichageNotificationEtBoutonAjoutPanier" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" />
       </list>
     </recent_temporary>
   </component>
