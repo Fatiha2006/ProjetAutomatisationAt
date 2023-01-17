@@ -15,7 +15,7 @@ Feature: Accès fiche Produit US8
 	#permettant de se rediriger dans l'espace panier, apparaissent au-dessus l'article
 
 	#Depuis la fiche descriptive d’un article, l’utilisateur doit être notifié de l’ajout de l’article au panier, et se voir afficher un bouton permettant l’accès au panier
-  @TEST_POEC3-68 @Cas_de_Test_G3
+  @Cas_de_Test_G3
   Scenario Outline: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier
     Given j'ouvre l'application
     When je clique la page shop
