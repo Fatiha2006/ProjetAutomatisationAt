@@ -1,12 +1,157 @@
 [
   {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1601471100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Connexion avec mot de passe erroné",
+        "description": "",
+        "id": "connexion-us2;connexion-avec-mot-de-passe-erroné;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3413636901,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "j\u0027ouvre l\u0027application",
+            "match": {
+              "location": "MyStepdefsAcceuil.jOuvreLApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 866916499,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "je clique sur la page My Account",
+            "match": {
+              "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59986700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "dans la page login je saisie le mail dans le champ mail \"fatiha-m_18@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fatiha-m_18@hotmail.com\"",
+                  "offset": 56
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51607100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "dans la page login je saisie le MDP dans le champ MDP \"Anir1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anir1\"",
+                  "offset": 54
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539622500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "je clique sur le bouton LOGIN",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31887400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Message erreur s\u0027affiche \"\u003cMSG\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cMSG\u003e\"",
+                  "offset": 25
+                }
+              ],
+              "location": "MyStepdefsMyAccount.messageErreurSAffiche(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_POEC3-2"
+          },
+          {
+            "name": "@TEST_POEC3-93"
+          },
+          {
+            "name": "@Cas_de_Test_G3"
+          },
+          {
+            "name": "@Fatiha_test"
+          }
+        ]
+      }
+    ],
+    "name": "Connexion US2",
+    "description": "",
+    "id": "connexion-us2",
+    "keyword": "Feature",
+    "uri": "classpath:TestConnexionKo.feature",
+    "tags": [
+      {
+        "name": "@REQ_POEC3-2",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
     "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 1424453600,
+              "duration": 760242600,
               "status": "passed"
             },
             "match": {
@@ -23,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6831574800,
+              "duration": 625210699,
               "status": "passed"
             },
             "line": 21,
@@ -35,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 858011300,
+              "duration": 545453400,
               "status": "passed"
             },
             "line": 22,
@@ -47,16 +192,16 @@
           },
           {
             "result": {
-              "duration": 74543000,
+              "duration": 185962400,
               "status": "passed"
             },
             "line": 23,
-            "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
+            "name": "dans la page login je saisie le mail dans le champ mail \"fatiha-m_18@hotmail.com\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"fatiha-m_18@hotmail.com\"",
-                  "offset": 57
+                  "offset": 56
                 }
               ],
               "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
@@ -65,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 157096300,
+              "duration": 62029401,
               "status": "passed"
             },
             "line": 24,
@@ -83,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 2348980600,
+              "duration": 797162601,
               "status": "passed"
             },
             "line": 25,
@@ -95,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 33322400,
+              "duration": 19212800,
               "status": "passed"
             },
             "line": 26,
@@ -124,6 +269,158 @@
     "id": "connexion-us2",
     "keyword": "Feature",
     "uri": "classpath:TestConnexionOK.feature",
+    "tags": [
+      {
+        "name": "@REQ_POEC3-2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 798920100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "vérification la présence des liens sur la page My Account après la connexion",
+        "description": "",
+        "id": "connexion-us2;vérification-la-présence-des-liens-sur-la-page-my-account-après-la-connexion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 615505400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "j\u0027ouvre l\u0027application",
+            "match": {
+              "location": "MyStepdefsAcceuil.jOuvreLApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549876000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "je clique sur la page My Account",
+            "match": {
+              "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"username\"]\"}\n  (Session info: chrome\u003d108.0.5359.125)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027FRP03384\u0027, ip: \u0027192.168.3.40\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.17\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\FORMAT~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c496c305b5f2ba29b38ef2d20232e0b8\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"username\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepsdefs.MyStepdefsMyAccount.jeMeConnect(MyStepdefsMyAccount.java:64)\r\n\tat ✽.je me connect(classpath:TestVerificationLinksMyAccount.feature:22)\r\n",
+              "duration": 20055180701,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "je me connect",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeMeConnect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5099,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "je vérifie la présence de lien Orders",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieLaPrésenceDeLienOrders()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "je vérifie la présence de lien Download",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieLaPrésenceDeLienDownload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "je vérifie la présence de lien Adresses",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieLaPrésenceDeLienAdresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "je vérifie la présence de lien Account Details",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieLaPrésenceDeLienAccountDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1200,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "je vérifie la présence de lien Logout",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieLaPrésenceDeLienLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_POEC3-2"
+          },
+          {
+            "name": "@TEST_POEC3-53"
+          },
+          {
+            "name": "@Cas_de_Test_G3"
+          },
+          {
+            "name": "@Fatiha_test"
+          }
+        ]
+      }
+    ],
+    "name": "Connexion US2",
+    "description": "",
+    "id": "connexion-us2",
+    "keyword": "Feature",
+    "uri": "classpath:TestVerificationLinksMyAccount.feature",
     "tags": [
       {
         "name": "@REQ_POEC3-2",

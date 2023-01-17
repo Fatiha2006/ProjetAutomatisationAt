@@ -1,3 +1,4 @@
+
 @REQ_POEC3-2
 Feature: Connexion US2
 	#En tant qu'
@@ -15,18 +16,14 @@ Feature: Connexion US2
 	#username ""Email"" incorrect s'affiche
 	#RG4 : Une case à cocher ""Remember me"" permet de garder son login pré-rempli à la prochaine connexion
 
-	#Je me connecte avec un compte qui existe.
-  @TEST_POEC3-22 @Fatiha_test
-  Scenario Outline: Connexion OK
+  @TEST_POEC3-93 @Cas_de_Test_G3 @Fatiha_test
+  Scenario Outline: Connexion avec mot de passe erroné
     Given j'ouvre l'application
     When je clique sur la page My Account
     And dans la page login je saisie le mail dans le champ mail "<Login>"
     And dans la page login je saisie le MDP dans le champ MDP "<MDP>"
     And je clique sur le bouton LOGIN
-    Then je vérifie que l'écran Dashboard est affiché
+    Then Message erreur s'affiche "<MSG>"
     Examples:
-      |Login                 |MDP|
-      |fatiha-m_18@hotmail.com |Anir1234&|
-
-
-
+      |Login                 |MDP     |MSG
+      |fatiha-m_18@hotmail.com |Anir1|Error: the password you entered for the usernameError: the password you entered for the username fatiha-m_18@hotmail.com is incorrect. Lost your password? is incorrect. Lost your password?

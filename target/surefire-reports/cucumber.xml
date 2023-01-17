@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.729436">
-    <testcase classname="Connexion US2" name="Connexion OK" time="11.729436">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="31.582711">
+    <testcase classname="Connexion US2" name="Connexion avec mot de passe erroné" time="6.566763">
         <system-out>
             <![CDATA[Given j'ouvre l'application.................................................passed
 When je clique sur la page My Account.......................................passed
-And dans la page login je saisie le mail dans le champ mail  "fatiha-m_18@hotmail.com".passed
+And dans la page login je saisie le mail dans le champ mail "fatiha-m_18@hotmail.com".passed
+And dans la page login je saisie le MDP dans le champ MDP "Anir1"...........passed
+And je clique sur le bouton LOGIN...........................................passed
+Then Message erreur s'affiche "<MSG>".......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Connexion US2" name="Connexion OK" time="2.996009">
+        <system-out>
+            <![CDATA[Given j'ouvre l'application.................................................passed
+When je clique sur la page My Account.......................................passed
+And dans la page login je saisie le mail dans le champ mail "fatiha-m_18@hotmail.com".passed
 And dans la page login je saisie le MDP dans le champ MDP "Anir1234&".......passed
 And je clique sur le bouton LOGIN...........................................passed
 Then je vérifie que l'écran Dashboard est affiché...........................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="Connexion US2" name="vérification la présence des liens sur la page My Account après la connexion" time="22.019939">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;username&quot;]&quot;}&#10;  (Session info: chrome=108.0.5359.125)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'FRP03384', ip: '192.168.3.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FORMAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c496c305b5f2ba29b38ef2d20232e0b8&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;username&quot;]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at stepsdefs.MyStepdefsMyAccount.jeMeConnect(MyStepdefsMyAccount.java:64)&#13;&#10;&#9;at ✽.je me connect(classpath:TestVerificationLinksMyAccount.feature:22)&#13;&#10;">
+            <![CDATA[Given j'ouvre l'application.................................................passed
+When je clique sur la page My Account.......................................passed
+And je me connect...........................................................failed
+Then je vérifie la présence de lien Orders..................................skipped
+And je vérifie la présence de lien Download.................................skipped
+And je vérifie la présence de lien Adresses.................................skipped
+And je vérifie la présence de lien Account Details..........................skipped
+And je vérifie la présence de lien Logout...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="username"]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FRP03384', ip: '192.168.3.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\FORMAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c496c305b5f2ba29b38ef2d20232e0b8
+*** Element info: {Using=xpath, value=//*[@id="username"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepsdefs.MyStepdefsMyAccount.jeMeConnect(MyStepdefsMyAccount.java:64)
+	at ✽.je me connect(classpath:TestVerificationLinksMyAccount.feature:22)
+]]>
+        </failure>
     </testcase>
 </testsuite>

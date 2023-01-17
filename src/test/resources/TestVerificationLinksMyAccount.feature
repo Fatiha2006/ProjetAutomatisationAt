@@ -15,18 +15,18 @@ Feature: Connexion US2
 	#username ""Email"" incorrect s'affiche
 	#RG4 : Une case à cocher ""Remember me"" permet de garder son login pré-rempli à la prochaine connexion
 
-	#Je me connecte avec un compte qui existe.
-  @TEST_POEC3-22 @Fatiha_test
-  Scenario Outline: Connexion OK
-    Given j'ouvre l'application
-    When je clique sur la page My Account
-    And dans la page login je saisie le mail dans le champ mail "<Login>"
-    And dans la page login je saisie le MDP dans le champ MDP "<MDP>"
-    And je clique sur le bouton LOGIN
-    Then je vérifie que l'écran Dashboard est affiché
-    Examples:
-      |Login                 |MDP|
-      |fatiha-m_18@hotmail.com |Anir1234&|
-
-
-
+	@TEST_POEC3-53 @Cas_de_Test_G3 @Fatiha_test
+	Scenario Outline: vérification la présence des liens sur la page My Account après la connexion
+		Given j'ouvre l'application
+		When je clique sur la page My Account
+		And dans la page login je saisie le mail dans le champ mail "<Login>"
+		And dans la page login je saisie le MDP dans le champ MDP "<MDP>"
+		And je clique sur le bouton LOGIN
+		Then je vérifie la présence de lien Orders
+		And je vérifie la présence de lien Download
+		And je vérifie la présence de lien Adresses
+		And je vérifie la présence de lien Account Details
+		And je vérifie la présence de lien Logout
+		Examples:
+			|Login                 |MDP|
+			|fatiha-m_18@hotmail.com |Anir1234&|
