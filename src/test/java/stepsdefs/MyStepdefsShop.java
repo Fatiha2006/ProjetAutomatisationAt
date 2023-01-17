@@ -13,15 +13,8 @@ public class MyStepdefsShop {
    String  XpathPageShop = "//*[@id=\"content\"]/nav";
    String XpathLogoAt = "//*[@id=\"site-logo\"]/a/img";
    String XpathPageAcceuil = "//*[@id=\"text-22-sub_row_1-0-1-1-0\"]/h2";
-
    String XpathSelectionArticle = "//*[@id=\"content\"]/ul/li[4]/a[1]";
 
-
-    @When("je clique la page shop")
-    public void jeCliqueLaPageShop() {
-        WebElement ClickPageShop = driver.findElement(By.xpath(XpathClickPageShop));
-       ClickPageShop.click();
-    }
 
     @And("je suis bien redirigée vers la page shop")
     public void jeSuisBienRedirigéeVersLaPageShop() {
@@ -41,10 +34,16 @@ public class MyStepdefsShop {
         PageAcceuil.getText().contains("new arrivals");
     }
 
-
     @And("je clique sur un article")
     public void jeCliqueSurUnArticle() {
         WebElement SelectionArticle = driver.findElement(By.xpath(XpathSelectionArticle));
         SelectionArticle.click();
+    }
+
+    @When("je clique la page shop")
+    public void jeCliqueLaPageShop() {
+        WebElement ClickPageShop = driver.findElement(By.xpath(XpathClickPageShop));
+        ClickPageShop.click();
+
     }
 }
