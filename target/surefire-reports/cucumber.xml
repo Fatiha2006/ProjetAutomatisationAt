@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.729436">
-    <testcase classname="Connexion US2" name="Connexion OK" time="11.729436">
-        <system-out>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="20.993393">
+    <testcase classname="Réinitialiser MDP US4" name="Réinitialisation du mot de passe Ok" time="20.993393">
+        <skipped>
             <![CDATA[Given j'ouvre l'application.................................................passed
 When je clique sur la page My Account.......................................passed
-And dans la page login je saisie le mail dans le champ mail  "fatiha-m_18@hotmail.com".passed
-And dans la page login je saisie le MDP dans le champ MDP "Anir1234&".......passed
-And je clique sur le bouton LOGIN...........................................passed
-Then je vérifie que l'écran Dashboard est affiché...........................passed
+And je clique sur le lien Lost your password je suis redirigé vers une page contenant un champ login.passed
+And je saisis mon login et je clique sur valider "passwordreinit@yopmail.com".passed
+And Je vérifie l'affichage du message de confirmation.......................passed
+And un mail de réinitialisation est envoyé..................................undefined
+And je ouvre ma boite mail et je vérifie la presence de un nouveau mail.....undefined
+And je ouvre le mail de réinitialisation du mot de passe....................undefined
+And je clique sur le lien de réinitialisation du mot de passe et je suis dirigé vers la page de réinitialisation du mot de passe.undefined
+And je saisis mon nouveau mot de passe dans le premier champ "Pmp1989d&"....undefined
+And je saisis mon nouveau mot de passe dans le champ de confirmation "Pmp1989d&".undefined
+And je clique sur valider...................................................undefined
+And je vérifie le affichage du message de confirmation......................undefined
+And je clique sur le lien My Account........................................undefined
+And dans la page login je saisie le mail dans le champ mail "passwordreinit@yopmail.com".skipped
+And dans la page login je saisie le MDP dans le champ MDP "Pmp1989d&".......skipped
+And je clique sur le bouton LOGIN...........................................skipped
+Then je vérifie que l'écran Dashboard est affiché...........................skipped
 ]]>
-        </system-out>
+        </skipped>
     </testcase>
 </testsuite>
