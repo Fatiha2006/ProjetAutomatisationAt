@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2265098600,
+              "duration": 3916166200,
               "status": "passed"
             },
             "match": {
@@ -14,19 +14,19 @@
             }
           }
         ],
-        "line": 12,
-        "name": "Depuis la page Panier le logo contient un lien vers la page d’accueil",
+        "line": 40,
+        "name": "Réinitialisation du mot de passe Ok",
         "description": "",
-        "id": "vérifier-logo-us3;depuis-la-page-panier-le-logo-contient-un-lien-vers-la-page-d’accueil",
+        "id": "réinitialiser-mdp-us4;réinitialisation-du-mot-de-passe-ok;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8541713800,
+              "duration": 6566999000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 20,
             "name": "j\u0027ouvre l\u0027application",
             "match": {
               "location": "MyStepdefsAcceuil.jOuvreLApplication()"
@@ -35,77 +35,221 @@
           },
           {
             "result": {
-              "duration": 162978400,
+              "duration": 2712872000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "je clique sur la page Panier",
+            "line": 21,
+            "name": "je clique sur la page My Account",
             "match": {
-              "location": "MuStepdefsPanier.jeCliqueSurLaPagePanier()"
+              "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5181056400,
+              "duration": 106051400,
               "status": "passed"
             },
-            "line": 15,
-            "name": "je suis bien redirigée vers la page Panier",
+            "line": 22,
+            "name": "je clique sur le lien Lost your password je suis redirigé vers une page contenant un champ login",
             "match": {
-              "location": "MuStepdefsPanier.jeSuisBienRedirigéeVersLaPagePanier()"
+              "location": "MyStepdefsMyAccount.jeCliqueSurLeLienLostYourPasswordJeSuisRedirigéVersUnePageContenantUnChampLogin()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2320072300,
+              "duration": 7646966500,
               "status": "passed"
             },
-            "line": 16,
-            "name": "je clique sur le logo AT",
+            "line": 23,
+            "name": "je saisis mon login et je clique sur valider \"passwordreinit@yopmail.com\"",
             "match": {
-              "location": "MyStepdefsShop.jeCliqueSurLeLogoAT()"
+              "arguments": [
+                {
+                  "val": "\"passwordreinit@yopmail.com\"",
+                  "offset": 45
+                }
+              ],
+              "location": "MyStepdefsLostPassword.jeSaisisMonLoginEtJeCliqueSurValider(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 45395300,
+              "duration": 39710900,
               "status": "passed"
             },
-            "line": 17,
-            "name": "je suis bien redirigé vers la page d’accueil",
+            "line": 24,
+            "name": "Je vérifie l\u0027affichage du message de confirmation",
             "match": {
-              "location": "MyStepdefsShop.jeSuisBienRedirigéVersLaPageDAccueil()"
+              "location": "MyStepdefsLostPassword.jeVérifieLAffichageDuMessageDeConfirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "un mail de réinitialisation est envoyé",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "je ouvre ma boite mail et je vérifie la presence de un nouveau mail",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "je ouvre le mail de réinitialisation du mot de passe.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "je clique sur le lien de réinitialisation du mot de passe et je suis dirigé vers la page de réinitialisation du mot de passe",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "je saisis mon nouveau mot de passe dans le premier champ \"Pmp1989d\u0026\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "je saisis mon nouveau mot de passe dans le champ de confirmation \"Pmp1989d\u0026\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "je clique sur valider",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "je vérifie le affichage du message de confirmation",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "je clique sur le lien My Account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "dans la page login je saisie le mail dans le champ mail \"passwordreinit@yopmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passwordreinit@yopmail.com\"",
+                  "offset": 56
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "dans la page login je saisie le MDP dans le champ MDP \"Pmp1989d\u0026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pmp1989d\u0026\"",
+                  "offset": 54
+                }
+              ],
+              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "je clique sur le bouton LOGIN",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "je vérifie que l\u0027écran Dashboard est affiché",
+            "match": {
+              "location": "MyStepdefsMyAccount.jeVérifieQueLÉcranDashboardEstAffiché()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@REQ_POEC3-3"
+            "name": "@REQ_POEC3-4"
           },
           {
-            "name": "@TEST_POEC3-97"
+            "name": "@TEST_POEC3-41"
           },
           {
             "name": "@Cas_de_Test_G3"
-          },
-          {
-            "name": "@NWW"
           }
         ]
       }
     ],
-    "name": "Vérifier logo US3",
+    "name": "Réinitialiser MDP US4",
     "description": "",
-    "id": "vérifier-logo-us3",
+    "id": "réinitialiser-mdp-us4",
     "keyword": "Feature",
-    "uri": "classpath:TestLogoPanier.feature",
+    "uri": "classpath:ReinitialisationMotDePasse.feature",
     "tags": [
       {
-        "name": "@REQ_POEC3-3",
+        "name": "@REQ_POEC3-4",
         "type": "Tag",
         "location": {
           "line": 1,
