@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1424453600,
+              "duration": 2265098600,
               "status": "passed"
             },
             "match": {
@@ -14,19 +14,19 @@
             }
           }
         ],
-        "line": 29,
-        "name": "Connexion OK",
+        "line": 12,
+        "name": "Depuis la page Panier le logo contient un lien vers la page d’accueil",
         "description": "",
-        "id": "connexion-us2;connexion-ok;;2",
+        "id": "vérifier-logo-us3;depuis-la-page-panier-le-logo-contient-un-lien-vers-la-page-d’accueil",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6831574800,
+              "duration": 8541713800,
               "status": "passed"
             },
-            "line": 21,
+            "line": 13,
             "name": "j\u0027ouvre l\u0027application",
             "match": {
               "location": "MyStepdefsAcceuil.jOuvreLApplication()"
@@ -35,98 +35,77 @@
           },
           {
             "result": {
-              "duration": 858011300,
+              "duration": 162978400,
               "status": "passed"
             },
-            "line": 22,
-            "name": "je clique sur la page My Account",
+            "line": 14,
+            "name": "je clique sur la page Panier",
             "match": {
-              "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
+              "location": "MuStepdefsPanier.jeCliqueSurLaPagePanier()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 74543000,
+              "duration": 5181056400,
               "status": "passed"
             },
-            "line": 23,
-            "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
+            "line": 15,
+            "name": "je suis bien redirigée vers la page Panier",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"fatiha-m_18@hotmail.com\"",
-                  "offset": 57
-                }
-              ],
-              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
+              "location": "MuStepdefsPanier.jeSuisBienRedirigéeVersLaPagePanier()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 157096300,
+              "duration": 2320072300,
               "status": "passed"
             },
-            "line": 24,
-            "name": "dans la page login je saisie le MDP dans le champ MDP \"Anir1234\u0026\"",
+            "line": 16,
+            "name": "je clique sur le logo AT",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Anir1234\u0026\"",
-                  "offset": 54
-                }
-              ],
-              "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
+              "location": "MyStepdefsShop.jeCliqueSurLeLogoAT()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2348980600,
+              "duration": 45395300,
               "status": "passed"
             },
-            "line": 25,
-            "name": "je clique sur le bouton LOGIN",
+            "line": 17,
+            "name": "je suis bien redirigé vers la page d’accueil",
             "match": {
-              "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 33322400,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "je vérifie que l\u0027écran Dashboard est affiché",
-            "match": {
-              "location": "MyStepdefsMyAccount.jeVérifieQueLÉcranDashboardEstAffiché()"
+              "location": "MyStepdefsShop.jeSuisBienRedirigéVersLaPageDAccueil()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@REQ_POEC3-2"
+            "name": "@REQ_POEC3-3"
           },
           {
-            "name": "@TEST_POEC3-22"
+            "name": "@TEST_POEC3-97"
           },
           {
-            "name": "@Fatiha_test"
+            "name": "@Cas_de_Test_G3"
+          },
+          {
+            "name": "@NWW"
           }
         ]
       }
     ],
-    "name": "Connexion US2",
+    "name": "Vérifier logo US3",
     "description": "",
-    "id": "connexion-us2",
+    "id": "vérifier-logo-us3",
     "keyword": "Feature",
-    "uri": "classpath:TestConnexionOK.feature",
+    "uri": "classpath:TestLogoPanier.feature",
     "tags": [
       {
-        "name": "@REQ_POEC3-2",
+        "name": "@REQ_POEC3-3",
         "type": "Tag",
         "location": {
           "line": 1,

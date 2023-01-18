@@ -5,20 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa24f7c7-5d86-4ab5-8745-a3c42c1a64bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestBoutonSupprimerPanier.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestQuantiteModifiable.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestRecapPanier.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MuStepdefsPanier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MuStepdefsPanier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogoAcceuil.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestLogoAcceuil.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogoMyAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestLogoMyAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogoPanier.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestLogoPanier.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogoShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestLogoShop.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunnerTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestConnexionOK.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestLogoShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestLogoShop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,32 +58,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\Projet_AT\src\test\resources" />
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTests">
-    <configuration name="Scenario: Connexion cas OK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: La quantité est saisissable et modifiable">
+    <configuration name="Scenario: Depuis la page Panier le logo contient un lien vers la page d’accueil" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" />
-      <option name="GLUE" value="stepdfs" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestLogoPanier.feature" />
+      <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Projet_AT" />
-      <option name="NAME_FILTER" value="^Connexion cas OK$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Connexion cas OK$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Connexion cas OK" />
+      <module name="ProjetAutomatisationAT" />
+      <option name="NAME_FILTER" value="^Depuis la page Panier le logo contient un lien vers la page d\’accueil$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Depuis la page Panier le logo contient un lien vers la page d\’accueil$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Depuis la page Panier le logo contient un lien vers la page d’accueil" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: La quantité est saisissable et modifiable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestQuantiteModifiable.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAT" />
+      <option name="NAME_FILTER" value="^La quantité est saisissable et modifiable$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^La quantité est saisissable et modifiable$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: La quantité est saisissable et modifiable" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Le bouton supprimer est fonctionnel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestBoutonSupprimerPanier.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAT" />
+      <option name="NAME_FILTER" value="^Le bouton supprimer est fonctionnel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Le bouton supprimer est fonctionnel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Le bouton supprimer est fonctionnel" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Le lien LOGOUT est fonctionnel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAT" />
+      <option name="NAME_FILTER" value="^Le lien LOGOUT est fonctionnel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Le lien LOGOUT est fonctionnel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Le lien LOGOUT est fonctionnel" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +156,7 @@
       </method>
     </configuration>
     <configuration name="RunnerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Projet_AT" />
+      <module name="ProjetAutomatisationAT" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunnerTests" />
       <option name="TEST_OBJECT" value="class" />
@@ -92,8 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: La quantité est saisissable et modifiable" />
+        <item itemvalue="Cucumber Java.Scenario: Le bouton supprimer est fonctionnel" />
+        <item itemvalue="Cucumber Java.Scenario: Depuis la page Panier le logo contient un lien vers la page d’accueil" />
+        <item itemvalue="Cucumber Java.Scenario: Le lien LOGOUT est fonctionnel" />
         <item itemvalue="JUnit.RunnerTests" />
-        <item itemvalue="Cucumber Java.Scenario: Connexion cas OK" />
       </list>
     </recent_temporary>
   </component>

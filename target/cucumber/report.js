@@ -1,83 +1,30 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:TestConnexionOK.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:TestLogoPanier.feature");
 formatter.feature({
-  "name": "Connexion US2",
+  "name": "Vérifier logo US3",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@REQ_POEC3-2"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "name": "Connexion OK",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@TEST_POEC3-22"
-    },
-    {
-      "name": "@Fatiha_test"
-    }
-  ]
-});
-formatter.step({
-  "name": "j\u0027ouvre l\u0027application",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "je clique sur la page My Account",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "dans la page login je saisie le mail dans le champ mail  \"\u003cLogin\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "dans la page login je saisie le MDP dans le champ MDP \"\u003cMDP\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "je clique sur le bouton LOGIN",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "je vérifie que l\u0027écran Dashboard est affiché",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "Login",
-        "MDP"
-      ]
-    },
-    {
-      "cells": [
-        "fatiha-m_18@hotmail.com",
-        "Anir1234\u0026"
-      ]
+      "name": "@REQ_POEC3-3"
     }
   ]
 });
 formatter.scenario({
-  "name": "Connexion OK",
+  "name": "Depuis la page Panier le logo contient un lien vers la page d’accueil",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@REQ_POEC3-2"
+      "name": "@REQ_POEC3-3"
     },
     {
-      "name": "@TEST_POEC3-22"
+      "name": "@TEST_POEC3-97"
     },
     {
-      "name": "@Fatiha_test"
+      "name": "@Cas_de_Test_G3"
+    },
+    {
+      "name": "@NWW"
     }
   ]
 });
@@ -95,51 +42,41 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "je clique sur la page My Account",
+  "name": "je clique sur la page Panier",
   "keyword": "When "
 });
 formatter.match({
-  "location": "MyStepdefsAcceuil.jeCliqueSurLaPageMyAccount()"
+  "location": "MuStepdefsPanier.jeCliqueSurLaPagePanier()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "dans la page login je saisie le mail dans le champ mail  \"fatiha-m_18@hotmail.com\"",
+  "name": "je suis bien redirigée vers la page Panier",
   "keyword": "And "
 });
 formatter.match({
-  "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMailDansLeChampMail(String)"
+  "location": "MuStepdefsPanier.jeSuisBienRedirigéeVersLaPagePanier()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "dans la page login je saisie le MDP dans le champ MDP \"Anir1234\u0026\"",
+  "name": "je clique sur le logo AT",
   "keyword": "And "
 });
 formatter.match({
-  "location": "MyStepdefsMyAccount.dansLaPageLoginJeSaisieLeMDPDansLeChampMDP(String)"
+  "location": "MyStepdefsShop.jeCliqueSurLeLogoAT()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "je clique sur le bouton LOGIN",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyStepdefsMyAccount.jeCliqueSurLeBoutonLOGIN()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "je vérifie que l\u0027écran Dashboard est affiché",
+  "name": "je suis bien redirigé vers la page d’accueil",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefsMyAccount.jeVérifieQueLÉcranDashboardEstAffiché()"
+  "location": "MyStepdefsShop.jeSuisBienRedirigéVersLaPageDAccueil()"
 });
 formatter.result({
   "status": "passed"

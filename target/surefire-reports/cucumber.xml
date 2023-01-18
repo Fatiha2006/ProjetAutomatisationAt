@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.729436">
-    <testcase classname="Connexion US2" name="Connexion OK" time="11.729436">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.523124">
+    <testcase classname="Vérifier logo US3" name="Depuis la page Panier le logo contient un lien vers la page d’accueil" time="18.523124">
         <system-out>
             <![CDATA[Given j'ouvre l'application.................................................passed
-When je clique sur la page My Account.......................................passed
-And dans la page login je saisie le mail dans le champ mail  "fatiha-m_18@hotmail.com".passed
-And dans la page login je saisie le MDP dans le champ MDP "Anir1234&".......passed
-And je clique sur le bouton LOGIN...........................................passed
-Then je vérifie que l'écran Dashboard est affiché...........................passed
+When je clique sur la page Panier...........................................passed
+And je suis bien redirigée vers la page Panier..............................passed
+And je clique sur le logo AT................................................passed
+Then je suis bien redirigé vers la page d’accueil...........................passed
 ]]>
         </system-out>
     </testcase>
