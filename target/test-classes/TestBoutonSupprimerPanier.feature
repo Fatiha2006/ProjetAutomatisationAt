@@ -20,7 +20,7 @@ Feature: Consulter Panier et finaliser les achats US9
   @TEST_POEC3-33 @TESTSET_POEC3-102 @Cas_de_Test_G3 @NWW
   Scenario: Le bouton supprimer est fonctionnel
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     And je clique sur le bouton add to basket
     And je clique sur le bouton VIEW BASKET
     And je clique sur le bouton supprimer

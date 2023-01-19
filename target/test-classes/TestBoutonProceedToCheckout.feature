@@ -16,14 +16,12 @@ Feature: Consulter Panier et finaliser les achats US9
 	#RG3 : Un pavé récapitulatif "Basket Totals" spécifie le prix total et la taxe associée
 	#RG4 : Un bouton "Proceed to Checkout" permet de valider la commande et de passer au paiement"
 
-	#Ce test permet d’afficher le récapitulatif du panier : la quantité , le prix unitaire et le prix total
-  @TEST_POEC3-30 @TESTSET_POEC3-102 @Cas_de_Test_G3 @NWW
-  Scenario: l’affichage du Récap dans le panier
+	#Ce test permet de vérifier si le bouton  « Proceed to Checkout » est fonctionnel et permet de passer au paiement.
+  @TEST_POEC3-43 @TESTSET_POEC3-102 @Cas_de_Test_G3
+  Scenario: Le Bouton « Proceed to Checkout » est fonctionnel
     Given j'ouvre l'application
     When je clique la page shop
     And je clique sur le bouton add to basket
     And je clique sur le bouton VIEW BASKET
-    Then le récapitulatif des articles est bien affiché
-    And la quantié est bien affiché
-    And le prix unitaire est bien affiché
-    And le prix total est bien affiché
+    And je clique sur le bouton Proceed to Checkout
+    Then le pavé Billing Details est affiché

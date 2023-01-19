@@ -26,6 +26,9 @@ public class MuStepdefsPanier {
     String XpathBoutonSupprimerPanier = "//*[@id=\"page-34\"]/div/div[1]/form/table/tbody/tr[1]/td[1]/a";
     String XpathArticleSupprime = "//*[@id=\"page-34\"]/div/div[1]";
     String XpathQuantiteModifiable = "//*[@id=\"page-34\"]/div/div[1]/form/table/tbody/tr[1]/td[5]/div/input";
+    String XpathBoutonProceedToCheckout = "//*[@id=\"page-34\"]/div/div[1]/div/div/div/a";
+    String XpathBillingDetails = "//*[@id=\"customer_details\"]/div[1]/div/h3";
+
 
     @When("je clique sur la page Panier")
     public void jeCliqueSurLaPagePanier() {
@@ -105,5 +108,23 @@ public class MuStepdefsPanier {
         String chiffre = ArticleSupprime.getAttribute("value");
         Assert.assertEquals(chiffre,"2");
 
+    }
+
+    @Then("Un pavé basket totals s'affiche avec le prix total et le prix associcé")
+    public void unPavéBasketTotalsSAfficheAvecLePrixTotalEtLePrixAssocicé() {
+        WebElement AffichageBasketTotals = driver.findElement(By.xpath(XpathRecapArticles));
+      AffichageBasketTotals.getText().contains("Basket Totals");
+    }
+
+    @And("je clique sur le bouton Proceed to Checkout")
+    public void jeCliqueSurLeBoutonProceedToCheckout() {
+        WebElement ClickBoutonProceedChekout = driver.findElement(By.xpath(XpathBoutonProceedToCheckout));
+      ClickBoutonProceedChekout.click();
+    }
+
+    @Then("le pavé Billing Details est affiché")
+    public void lePavéBillingDetailsEstAffiché() {
+        WebElement BillingDetailEstAffiché= driver.findElement(By.xpath(XpathBillingDetails));
+        BillingDetailEstAffiché.getText().contains("Billing Details");
     }
 }
