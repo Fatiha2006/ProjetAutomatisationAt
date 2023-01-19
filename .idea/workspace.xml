@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa24f7c7-5d86-4ab5-8745-a3c42c1a64bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestNotificationEtBoutonAJoutPanier.feature" afterDir="false" />
+    <list default="true" id="dec34b63-cff6-4e7d-aee4-ff055570419b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsPanier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestAffichageInfosUtilisateurs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModifMdpErreurConfirmation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModifMdpMdpErrone.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModificationMdp.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestAffichageNotificationEtBoutonAjoutPanier.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MuStepdefsPanier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestAjoutauPanierEtChampdeSélectionNbrArticlesFichePdt .feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testaffichageinformationsficheproduit.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test affichage informations fiche produit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +62,16 @@
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier">
-    <configuration name="Feature: Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details">
+    <configuration name="Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestModifMdpErreurConfirmation.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ProjetAutomatisationAt" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt " />
+      <option name="NAME_FILTER" value="^Modification du mot de passe depuis la page Account Details erreur de confirmation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Modification du mot de passe depuis la page Account Details erreur de confirmation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -73,15 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Modification du mot de passe depuis la page Account Details mauvais mot de passe" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestModifMdpMdpErrone.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
+      <option name="NAME_FILTER" value="^Modification du mot de passe depuis la page Account Details mauvais mot de passe$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Modification du mot de passe depuis la page Account Details mauvais mot de passe$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Modification du mot de passe depuis la page Account Details mauvais mot de passe" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -93,35 +103,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Modification du mot de passe depuis la page Account Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestNotificationEtBoutonAJoutPanier.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestModificationMdp.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Réinitialisation du mot de passe Ok" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ReinitialisationMotDePasse.feature" />
-      <option name="GLUE" value="stepsdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Réinitialisation du mot de passe Ok$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Réinitialisation du mot de passe Ok$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Réinitialisation du mot de passe Ok" />
+      <option name="NAME_FILTER" value="^Modification du mot de passe depuis la page Account Details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Modification du mot de passe depuis la page Account Details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Modification du mot de passe depuis la page Account Details" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +125,7 @@
     </configuration>
     <configuration name="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Testaffichageinformationsficheproduit.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ProjetAutomatisationAt" />
@@ -153,20 +143,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAjoutauPanierEtChampdeSélectionNbrArticlesFichePdt .feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ProjetAutomatisationAt" />
+      <option name="NAME_FILTER" value="^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
+        <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details" />
+        <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details mauvais mot de passe" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" />
         <item itemvalue="Cucumber Java.Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
-        <item itemvalue="Cucumber Java.Scenario: Réinitialisation du mot de passe Ok" />
-        <item itemvalue="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" />
-        <item itemvalue="Cucumber Java.Feature: Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt " />
+        <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa24f7c7-5d86-4ab5-8745-a3c42c1a64bc" name="Changes" comment="" />
+      <changelist id="dec34b63-cff6-4e7d-aee4-ff055570419b" name="Changes" comment="" />
       <created>1673533371963</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

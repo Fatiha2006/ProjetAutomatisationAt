@@ -22,15 +22,13 @@ Feature: Accès fiche Produit US8
 	#*  son prix 
 	#* le nombre d'exemplaires encore disponible
 	@TEST_POEC3-72 @Cas_de_Test_G3 @Pm_Test
-	Scenario Outline: Vérification de la présence des informations liées à un article sur sa fiche produit
+	Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit
 		Given j'ouvre l'application
 		When je clique la page shop
-		And je clique sur un article 
-		And la photo de le article est affiché
-		And le détail descriptif est affiché "<Description>"
-		And le prix est affiché "<Price>"
-		Then le nombre de articles restants est affiché "<NbrsLeft>"
-		
-		Examples:
-		|Description|Price   |NbrsLeft  |
-		|           |        |          |
+		And je clique sur un article
+		And le détail descriptif est affiché
+		And le prix est affiché
+		And le nombre de articles restants est affiché
+		Then la photo de le article est affiché
+
+
