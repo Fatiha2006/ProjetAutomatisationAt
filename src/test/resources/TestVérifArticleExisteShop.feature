@@ -21,9 +21,11 @@ Feature: Processus d’achat US7
 	@TEST_POEC3-27 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
 	Scenario Outline: Vérification que la page shop contient des articles
 		Given j'ouvre l'application
+
 		When je clique la page shop
 		Then je vérifié le titre d'un article "<Titre1>"
 		And je vérifié le titre d'un autre article "<Titre2>"
 		Examples:
 			|Titre1                        |Titre2|
 			|Functional Programming in JS  |HTML5 WebApp Develpment|
+
