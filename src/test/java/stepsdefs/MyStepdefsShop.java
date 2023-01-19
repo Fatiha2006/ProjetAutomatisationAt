@@ -32,6 +32,7 @@ public class MyStepdefsShop {
      String XpathLibelleArticle = "//ul[@class=\"products masonry-done\"]/li[1]/a/h3";
     String XpathChampEmail = "//input[@type=\"email\"]";
     String XpathButtonXpath = "//input[@value=\"Subscribe\"]";
+    String XpathSpanPageDetail = "//span[@class=\"posted_in\"]";
 
     @And("je suis bien redirigée vers la page shop")
     public void jeSuisBienRedirigéeVersLaPageShop() {
@@ -62,6 +63,11 @@ public class MyStepdefsShop {
         WebElement ClickPageShop = driver.findElement(By.xpath(XpathClickPageShop));
         ClickPageShop.click();
 
+    }
+    @Then("je suis bien redirigé vers la page détail de l'article")
+    public void jeSuisBienRedirigéVersLaPageDétailDeLArticle() {
+        WebElement SpanPageDetail = driver.findElement(By.xpath(XpathSpanPageDetail));
+        SpanPageDetail.getText().contains("Category: ");
     }
 
     @Then("je vérifié le titre d'un article {string}")

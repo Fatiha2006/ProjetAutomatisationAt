@@ -20,6 +20,6 @@ Feature: Souscription Newsletter US10
 
     When je suis la page D'acceuil
 
-    And je clique sur la page shop
+    And je clique la page shop
 
     Then La fonctionnalité est bien présente sur la page shop

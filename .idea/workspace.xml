@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dec34b63-cff6-4e7d-aee4-ff055570419b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsPanier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestAffichageInfosUtilisateurs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModifMdpErreurConfirmation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModifMdpMdpErrone.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestModificationMdp.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MuStepdefsPanier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestAjoutauPanierEtChampdeSélectionNbrArticlesFichePdt .feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testaffichageinformationsficheproduit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test affichage informations fiche produit.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MuStepdefsPanier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ReinitialisationMotDePasse.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestVérifArticleExisteShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestVérifArticleExisteShop.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,27 +50,7 @@
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details">
-    <configuration name="Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestModifMdpErreurConfirmation.feature" />
-      <option name="GLUE" value="stepsdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Modification du mot de passe depuis la page Account Details erreur de confirmation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Modification du mot de passe depuis la page Account Details erreur de confirmation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Vérification de lien sur l'image d'article dans la page shop">
     <configuration name="Scenario: Modification du mot de passe depuis la page Account Details mauvais mot de passe" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestModifMdpMdpErrone.feature" />
@@ -123,15 +91,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Vérification de l'îcone panier dans la page d'acceuil" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Testaffichageinformationsficheproduit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifIconePanierPageAcceuil.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Vérification de la présence des informations liées à un article sur sa fiche produit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de la présence des informations liées à un article sur sa fiche produit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification de l\'îcone panier dans la page d\'acceuil$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de l\'îcone panier dans la page d\'acceuil$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de l'îcone panier dans la page d'acceuil" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Vérification de lien sur l'image d'article dans la page shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLienImageArticle.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification de lien sur l\'image d\'article dans la page shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de lien sur l\'image d\'article dans la page shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de lien sur l'image d'article dans la page shop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Vérification de lien sur l'image d'article dans la page shop" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification de l'îcone panier dans la page d'acceuil" />
         <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details" />
         <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details mauvais mot de passe" />
         <item itemvalue="Cucumber Java.Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" />
-        <item itemvalue="Cucumber Java.Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
-        <item itemvalue="Cucumber Java.Scenario: Modification du mot de passe depuis la page Account Details erreur de confirmation (1)" />
       </list>
     </recent_temporary>
   </component>
