@@ -13,6 +13,7 @@ public class MyStepdefsFicheProduit {
     String XpathTexteDeConfirmationAjoutPanier= "//*[@id=\"content\"]/div[1]";
 
     String XpathBoutonAjoutPanier = "//*[@id=\"content\"]/div[1]/a";
+    String XpathSpanPageDetail = "//span[@class=\"posted_in\"]";
 
     @And("je clique sur le bouton ajouter au panier")
     public void jeCliqueSurLeBoutonAjouterAuPanier() {
@@ -35,5 +36,10 @@ public class MyStepdefsFicheProduit {
     }
 
 
+    @Then("je suis bien redirigé vers la page détail de l'article")
+    public void jeSuisBienRedirigéVersLaPageDétailDeLArticle() {
+        WebElement SpanPageDetail = driver.findElement(By.xpath(XpathSpanPageDetail));
+        SpanPageDetail.getText().contains("Category: ");
+    }
 }
 

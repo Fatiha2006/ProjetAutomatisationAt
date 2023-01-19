@@ -3,8 +3,13 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="ChangeListManager">
-    <list default="true" id="fa24f7c7-5d86-4ab5-8745-a3c42c1a64bc" name="Changes" comment="">
+  <component name="ChangeListManager"
+    <list default="true" id="0cc6a5f6-b8a7-4813-90dd-3d2594343dbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,16 +52,18 @@
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Le Bouton « Proceed to Checkout » est fonctionnel">
-    <configuration name="Scenario: Affichage « Basket Totals »" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
+  <component name="RunManager" selected="Cucumber Java.Scenario: Le lien LOGOUT est fonctionnel">
+    <configuration name="Scenario: Inscription à la newsletter avec un mail non conforme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageBasketTotals.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/MessageErreurNewsLetterMailInvalide.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAT" />
-      <option name="NAME_FILTER" value="^Affichage \« Basket Totals \»$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Affichage \« Basket Totals \»$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Affichage « Basket Totals »" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Inscription à la newsletter avec un mail non conforme$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Inscription à la newsletter avec un mail non conforme$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Inscription à la newsletter avec un mail non conforme" />
+ 
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -68,15 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: La quantité est saisissable et modifiable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Le lien LOGOUT est fonctionnel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestQuantiteModifiable.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestDeconnexionOk.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAT" />
-      <option name="NAME_FILTER" value="^La quantité est saisissable et modifiable$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^La quantité est saisissable et modifiable$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: La quantité est saisissable et modifiable" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Le lien LOGOUT est fonctionnel$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Le lien LOGOUT est fonctionnel$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Le lien LOGOUT est fonctionnel" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,15 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Le Bouton « Proceed to Checkout » est fonctionnel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Présence de la newsletters  sur la page : shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestBoutonProceedToCheckout.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestPresenceNewsLetterLapageShop.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAT" />
-      <option name="NAME_FILTER" value="^Le Bouton \« Proceed to Checkout \» est fonctionnel$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Le Bouton \« Proceed to Checkout \» est fonctionnel$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Le Bouton « Proceed to Checkout » est fonctionnel" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Présence de la newsletters  sur la page \: shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Présence de la newsletters  sur la page \: shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Présence de la newsletters  sur la page : shop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,15 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
+    <configuration name="Scenario: Vérification de lien sur l'image d'article dans la page shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestNotificationEtBoutonAJoutPanier.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLienImageArticle.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification de lien sur l\'image d\'article dans la page shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de lien sur l\'image d\'article dans la page shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de lien sur l'image d'article dans la page shop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,15 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Vérification le lien sur libellé de l'article" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLienLibillePageShop.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Vérification de la présence des informations liées à un article sur sa fiche produit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de la présence des informations liées à un article sur sa fiche produit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification le lien sur libellé de l\'article$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification le lien sur libellé de l\'article$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification le lien sur libellé de l'article" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +159,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Le Bouton « Proceed to Checkout » est fonctionnel" />
-        <item itemvalue="Cucumber Java.Scenario: Affichage « Basket Totals »" />
-        <item itemvalue="Cucumber Java.Scenario: La quantité est saisissable et modifiable" />
-        <item itemvalue="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
-        <item itemvalue="Cucumber Java.Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
+
+        <item itemvalue="Cucumber Java.Scenario: Le lien LOGOUT est fonctionnel" />
+        <item itemvalue="Cucumber Java.Scenario: Présence de la newsletters  sur la page : shop" />
+        <item itemvalue="Cucumber Java.Scenario: Inscription à la newsletter avec un mail non conforme" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification le lien sur libellé de l'article" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification de lien sur l'image d'article dans la page shop" />
       </list>
     </recent_temporary>
   </component>

@@ -20,6 +20,7 @@ public class MyStepdefsMyAccount  {
      String XpathLinkAddress = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[4]/a";
     String XpathLinkDetails = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[5]/a";
     String XpathLinkLogout = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[6]/a";
+    String XpathTitleLogin = "//h2[text()=\"Login\"]";
 
 
     @When("dans la page login je saisie le mail dans le champ mail {string}")
@@ -80,7 +81,20 @@ public class MyStepdefsMyAccount  {
 
     @And("je vérifie la présence de lien Logout")
     public void jeVérifieLaPrésenceDeLienLogout() {
-        WebElement lienLogout = driver.findElement(By.xpath(XpathLinkDetails));
+        WebElement lienLogout = driver.findElement(By.xpath(XpathLinkLogout));
         lienLogout.getText().contains("Logout");
+    }
+
+
+    @And("je clique sur le lien lougout")
+    public void jeCliqueSurLeLienLougout() {
+        WebElement lienLogout = driver.findElement(By.xpath(XpathLinkLogout));
+        lienLogout.click();
+    }
+
+    @Then("le pavé de login est affiché")
+    public void lePavéDeLoginEstAffiché() {
+        WebElement titreLogin = driver.findElement(By.xpath(XpathTitleLogin));
+        titreLogin.getText().contains("Login");
     }
 }
