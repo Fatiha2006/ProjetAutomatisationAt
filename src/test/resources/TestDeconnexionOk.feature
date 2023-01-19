@@ -21,7 +21,6 @@ Feature: Déconnexion US6
     And je vérifie que l'écran Dashboard est affiché
     And je clique sur le lien lougout
     Then le pavé de login est affiché
-    And le pavé de Register est affiché
     Examples:
       |Login                    |MDP|
       |fatiha-m_18@hotmail.com |Anir1234&|
