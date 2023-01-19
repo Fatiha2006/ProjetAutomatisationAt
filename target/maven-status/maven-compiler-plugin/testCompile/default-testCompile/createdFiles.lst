@@ -1,0 +1,7 @@
+manager\DriverManager.class
+stepsdefs\MuStepdefsPanier.class
+stepsdefs\MyStepdefsShop.class
+RunnerTests.class
+stepsdefs\Hooks.class
+stepsdefs\MyStepdefsAcceuil.class
+stepsdefs\MyStepdefsMyAccount.class

@@ -40,6 +40,14 @@ public class MyStepdefsMyAccount  {
 
     String XpathMsgConfirmation = "//div[@class=\"woocommerce-message\"]";
 
+    String XpathMessageErreur = "//*[@id=\"page-36\"]/div/div[1]/ul/li";
+    String XpathLinkOrder = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[2]/a";
+    String XpathLinkDownloads = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[3]/a";
+    String XpathLinkAddress = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[4]/a";
+    String XpathLinkDetails = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[5]/a";
+    String XpathLinkLogout = "//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[6]/a";
+    String XpathTitleLogin = "//h2[text()=\"Login\"]";
+
     @When("dans la page login je saisie le mail dans le champ mail {string}")
     public void dansLaPageLoginJeSaisieLeMailDansLeChampMail(String mail) {
         WebElement input_mail_login = driver.findElement(By.xpath(XpathChampMailLogin));
@@ -67,7 +75,52 @@ public class MyStepdefsMyAccount  {
 
     @Then("Message erreur s'affiche {string}")
     public void messageErreurSAffiche(String MSG) {
+        WebElement MsgErreur = driver.findElement(By.xpath(XpathMessageErreur));
+        MsgErreur.getText().contains("Error: the password you entered for the username");
 
+    }
+
+    @Then("je vérifie la présence de lien Orders")
+    public void jeVérifieLaPrésenceDeLienOrders() {
+        WebElement lienOrder = driver.findElement(By.xpath(XpathLinkOrder));
+        lienOrder.getText().contains("Orders");
+    }
+
+    @And("je vérifie la présence de lien Download")
+    public void jeVérifieLaPrésenceDeLienDownload() {
+        WebElement lienDownload = driver.findElement(By.xpath(XpathLinkDownloads));
+        lienDownload.getText().contains("Downloads");
+    }
+
+    @And("je vérifie la présence de lien Adresses")
+    public void jeVérifieLaPrésenceDeLienAdresses() {
+        WebElement lienAddress = driver.findElement(By.xpath(XpathLinkAddress));
+        lienAddress.getText().contains("Addresses");
+    }
+
+    @And("je vérifie la présence de lien Account Details")
+    public void jeVérifieLaPrésenceDeLienAccountDetails() {
+        WebElement lienDetail = driver.findElement(By.xpath(XpathLinkDetails));
+        lienDetail.getText().contains("Addresses");
+    }
+
+    @And("je vérifie la présence de lien Logout")
+    public void jeVérifieLaPrésenceDeLienLogout() {
+        WebElement lienLogout = driver.findElement(By.xpath(XpathLinkLogout));
+        lienLogout.getText().contains("Logout");
+    }
+
+
+    @And("je clique sur le lien lougout")
+    public void jeCliqueSurLeLienLougout() {
+        WebElement lienLogout = driver.findElement(By.xpath(XpathLinkLogout));
+        lienLogout.click();
+    }
+
+    @Then("le pavé de login est affiché")
+    public void lePavéDeLoginEstAffiché() {
+        WebElement titreLogin = driver.findElement(By.xpath(XpathTitleLogin));
+        titreLogin.getText().contains("Login");
     }
 
 

@@ -18,12 +18,9 @@ Feature: Processus d’achat US7
 	#RG6 : Chaque article contient une photo descriptive, un libellé et le prix affiché au-dessous. Un lien actif sur ces 3
 	#éléments redirige vers le détail de l'article
 
-	@TEST_POEC3-27 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
-	Scenario Outline: Vérification que la page shop contient des articles
-		Given j'ouvre l'application
-		When je clique sur la page shop
-		Then je vérifié le titre d'un article "<Titre1>"
-		And je vérifié le titre d'un autre article "<Titre2>"
-		Examples:
-			|Titre1                        |Titre2|
-			|Functional Programming in JS  |HTML5 WebApp Develpment|
+  @TEST_POEC3-52 @Cas_de_Test_G3 @Fatiha_test
+  Scenario: Vérification le lien sur libellé de l'article
+    Given j'ouvre l'application
+    When je clique la page shop
+    And je clique sur le libellé
+    Then je suis bien redirigé vers la page détail de l'article

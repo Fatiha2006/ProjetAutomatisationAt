@@ -47,15 +47,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
+    &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
-  }
-}</component>
+    }
+    }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\Projet_AT\src\test\resources" />

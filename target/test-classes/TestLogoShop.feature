@@ -11,7 +11,7 @@ Feature: Vérifier logo US3
   @TEST_POEC3-18 @NWW
   Scenario: Depuis la page shop le logo contient un lien vers la page d’accueil
     Given j'ouvre l'application
-    When je clique la page shop
+    When je clique sur la page shop
     And je suis bien redirigée vers la page shop
     And je clique sur le logo AT
     Then je suis bien redirigé vers la page d’accueil

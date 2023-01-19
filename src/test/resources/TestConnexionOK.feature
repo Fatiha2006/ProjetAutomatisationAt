@@ -25,8 +25,8 @@ Feature: Connexion US2
     And je clique sur le bouton LOGIN
     Then je vérifie que l'écran Dashboard est affiché
     Examples:
-      |Login                 |MDP|
-      |fatiha-m_18@hotmail.com |Anir1234&|
+      |Login                  |MDP|
+      |fatiha-m_18@hotmail.com|Anir1234&|
 
 
 
