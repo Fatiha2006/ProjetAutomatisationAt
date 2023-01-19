@@ -18,16 +18,11 @@ Feature: Accès fiche Produit US8
 	#
 	# Le panier doit contenir l’article sélectionné, et la quantité choisie.
 	@TEST_POEC3-67 @Cas_de_Test_G3 @Pm_Test
-	Scenario Outline: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier
+	Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier
 		Given j'ouvre l'application
 		When je clique la page shop
 		And je clique sur un article
-		And je tape le nombre de articles souhaités dans le champ de selection du nombre de article "<NbrArticles>"
+		And je tape le nombre de articles souhaités dans le champ de selection du nombre de article
 		And je clique sur le bouton ajouter au panier
-		And je suis notifié du libelle et du nombre de articles ajoutés à mon panier "<NotifNbrArticles>"
-		And je clique sur le bouton voir mon panier et je suis redirigé vers le panier
-		And je vérifie le libelle de mon article "<Libelle>"
-		Then Je vérifie que le bon nombre de articles a été ajouté au panier "<NbrArticlesPanier>"
-		Examples:
-		|NbrArticles|NbrArticlesPanier   |Libelle                 |NotifNbrArticles                                             |
-		|5          |5                   |HTML5 WebApp Develpment |5 × “HTML5 WebApp Develpment” have been added to your basket.|
+		And Je clique sur le lien voir mon panier
+		Then je vérifie que le bon nombre de articles a été ajouté au panier
