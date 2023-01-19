@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd228c8-defa-4be2-84c1-eee08ede9ea2" name="Changes" comment="">
+    <list default="true" id="0cc6a5f6-b8a7-4813-90dd-3d2594343dbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/MessageErreurNewsLetterMailInvalide.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestPresenceNewsLetterLapageShop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifFiltreTheme.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifIconePanierPageAcceuil.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifIconePanierPageMyaccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifLibilléEtPrixArticlePageShop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifLienImageArticle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifLienLibillePageShop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVerifReadMore.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestVérifButtonAddToBasket.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/VérifLinkViewBasket.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsAcceuil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsFicheProduit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsMyAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefs/MyStepdefsShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestLogoShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestLogoShop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNotificationEtBoutonAJoutPanier.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNotificationEtBoutonAJoutPanier.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestVérifArticleExisteShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestVérifArticleExisteShop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestLogoShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestLogoShop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNotificationEtBoutonAJoutPanier.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNotificationEtBoutonAJoutPanier.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestVérifArticleExisteShop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestVérifArticleExisteShop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsAcceuil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsFicheProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsMyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsdefs/MyStepdefsShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,35 +72,16 @@
       <recent name="C:\Dev\Projet_AT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Connexion OK">
-    <configuration name="Feature: TestAffichageNotificationEtBoutonAjoutPanier" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Présence de la newsletters  sur la page : shop">
+    <configuration name="Scenario: Inscription à la newsletter avec un mail non conforme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" />
-      <option name="GLUE" value="stepsdefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TestAffichageNotificationEtBoutonAjoutPanier" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Connexion OK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestConnexionOK.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/MessageErreurNewsLetterMailInvalide.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Projet_AT" />
-      <option name="NAME_FILTER" value="^Connexion OK$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Connexion OK$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Connexion OK" />
+      <option name="NAME_FILTER" value="^Inscription à la newsletter avec un mail non conforme$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Inscription à la newsletter avec un mail non conforme$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Inscription à la newsletter avec un mail non conforme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -87,15 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Présence de la newsletters  sur la page : shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestAffichageNotificationEtBoutonAjoutPanier.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestPresenceNewsLetterLapageShop.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Notification de l\'utilisateur de l\'ajout d\'un article au panier et affichage du bouton de redirection vers le panier$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Présence de la newsletters  sur la page \: shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Présence de la newsletters  sur la page \: shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Présence de la newsletters  sur la page : shop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -107,15 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Vérification de libellé et le prix d'article dans la page shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test affichage informations fiche produit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLibilléEtPrixArticlePageShop.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Vérification de la présence des informations liées à un article sur sa fiche produit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de la présence des informations liées à un article sur sa fiche produit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification de libellé et le prix d\'article dans la page shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de libellé et le prix d\'article dans la page shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de libellé et le prix d'article dans la page shop" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -127,15 +133,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Vérification de lien sur l'image d'article dans la page shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Test  Ajout au panier et  champ de sélection Nbr  d_articles Fiche Pdt .feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLienImageArticle.feature" />
       <option name="GLUE" value="stepsdefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ProjetAutomatisationAt" />
-      <option name="NAME_FILTER" value="^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d\'articles à ajouter au panier$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification de lien sur l\'image d\'article dans la page shop$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification de lien sur l\'image d\'article dans la page shop$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification de lien sur l'image d'article dans la page shop" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Vérification le lien sur libellé de l'article" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/TestVerifLienLibillePageShop.feature" />
+      <option name="GLUE" value="stepsdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Projet_AT" />
+      <option name="NAME_FILTER" value="^Vérification le lien sur libellé de l\'article$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Vérification le lien sur libellé de l\'article$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vérification le lien sur libellé de l'article" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Connexion OK" />
-        <item itemvalue="Cucumber Java.Scenario: Vérification de la présence des informations liées à un article sur sa fiche produit" />
-        <item itemvalue="Cucumber Java.Feature: TestAffichageNotificationEtBoutonAjoutPanier" />
-        <item itemvalue="Cucumber Java.Scenario: Vérification du bouton Ajout au panier et vérification du champ de sélection du nombre d'articles à ajouter au panier (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Présence de la newsletters  sur la page : shop" />
+        <item itemvalue="Cucumber Java.Scenario: Inscription à la newsletter avec un mail non conforme" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification le lien sur libellé de l'article" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification de lien sur l'image d'article dans la page shop" />
+        <item itemvalue="Cucumber Java.Scenario: Vérification de libellé et le prix d'article dans la page shop" />
       </list>
     </recent_temporary>
   </component>

@@ -83,4 +83,6 @@ public class MyStepdefsMyAccount  {
         WebElement lienLogout = driver.findElement(By.xpath(XpathLinkDetails));
         lienLogout.getText().contains("Logout");
     }
+
+
 }

@@ -18,7 +18,7 @@ Feature: Accès fiche Produit US8
   @Cas_de_Test_G3
   Scenario: Notification de l'utilisateur de l'ajout d'un article au panier et affichage du bouton de redirection vers le panier
     Given j'ouvre l'application
-    When je clique la page shop
+    When je clique sur la page shop
     And je clique sur un article
     And je clique sur le bouton ajouter au panier
     And je vérifie la présence du bouton ajouter au panier
