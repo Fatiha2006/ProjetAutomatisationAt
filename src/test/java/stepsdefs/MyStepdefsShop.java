@@ -41,7 +41,7 @@ public class MyStepdefsShop {
     }
 
     @When("je clique sur la page shop")
-    public void jeCliqueSurLaPageShop() {
+    public void jeCliqueLaPageShop() {
         WebElement ClickPageShop = driver.findElement(By.xpath(XpathClickPageShop));
         ClickPageShop.click();
 
