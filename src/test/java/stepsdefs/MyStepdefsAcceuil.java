@@ -51,4 +51,6 @@ public class MyStepdefsAcceuil {
         WebElement msgNews = driver.findElement(By.xpath(XpathMsgNews));
          Assert.assertEquals(msgNews.getText(),Message);
     }
+
+
 }
