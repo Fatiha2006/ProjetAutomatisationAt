@@ -21,6 +21,6 @@ Feature: Processus d’achat US7
   @TEST_POEC3-28 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de bouton "ADD TO BASCKET"
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     Then je vérifie la présence de button Add to basket 1
     And je vérifie la présence de button Add to basket 2

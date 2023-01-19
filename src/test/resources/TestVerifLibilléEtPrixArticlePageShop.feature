@@ -21,6 +21,6 @@ Feature: Processus d’achat US7
   @TEST_POEC3-49 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de libellé et le prix d'article dans la page shop
     Given j'ouvre l'application
-    When  je clique sur la page shop
+    When  je clique la page shop
     Then je vérifie que l'article cotient un prix
     And je vérifie que l'article contient un libille

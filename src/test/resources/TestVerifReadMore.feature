@@ -21,5 +21,5 @@ Feature: Processus d’achat US7
   @TEST_POEC3-32 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de bouton READ MORE
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     Then Je Vérifie que le bouton READ MORE pour un article qui est en repture de stock

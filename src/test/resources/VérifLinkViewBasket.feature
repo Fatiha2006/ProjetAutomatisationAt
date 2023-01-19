@@ -21,7 +21,7 @@ Feature: Processus d’achat US7
   @TEST_POEC3-31 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
   Scenario Outline: Vérification de lien VIEW Basket
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     And  je clique sur le bouton ADD TO BASCKET
     Then je Vérifie que le lien VIEW Bascket existe <"Lien">
     And  je vérifie que le lien VIEW Bascket redirige vers la page panier

@@ -21,7 +21,7 @@ Feature: Processus d’achat US7
   @TEST_POEC3-40 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de l'îcone panier dans la page d'acceuil
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     And je clique sur le bouton ADD TO BASCKET
     When je clique sur le logo AT
     And je clique sur l'îcone panier

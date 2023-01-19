@@ -21,6 +21,6 @@ Feature: Processus d’achat US7
   @TEST_POEC3-50 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de lien sur l'image d'article dans la page shop
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     And je clique sur le lien de l'image d'un article
     Then je suis bien redirigé vers la page détail de l'article

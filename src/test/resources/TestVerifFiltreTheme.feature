@@ -21,6 +21,6 @@ Feature: Processus d’achat US7
   @TEST_POEC3-47 @TESTSET_POEC3-102 @Cas_de_Test_G3 @Fatiha_test
   Scenario: Vérification de filtre théme
     Given j'ouvre l'application
-    When je clique sur la page shop
+    When je clique la page shop
     And  Je clique sur la catégorie
     Then Je Vérifie le nombre d'article affiché
